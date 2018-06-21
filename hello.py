@@ -36,6 +36,7 @@ def show_post(post_id):
     print 'POST is %d' % post_id
     return 'Post %d' % post_id
 
+
 @app.route('/path/<path:subpath>')
 def show_subpath(subpath):
     # show subpath after /path/
